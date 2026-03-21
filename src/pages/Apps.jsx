@@ -5,6 +5,7 @@ import AppCard from "../components/shared/AppCard";
 const appPromise = fetch("/data/data.json").then((res) => res.json());
 
 export default function Apps() {
+  throw new Error("app error");
   const allApps = use(appPromise);
   const [searchQuery, setSearchQuery] = useState("");
 
