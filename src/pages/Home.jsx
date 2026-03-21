@@ -1,9 +1,11 @@
 import Banner from "../components/Home/Banner";
+import Stats from "../components/Home/Stats";
 
 export default function Home() {
   return (
-    <div className="bg-slate-50 ">
+    <div>
       <Banner />
+      <Stats />
     </div>
   );
 }

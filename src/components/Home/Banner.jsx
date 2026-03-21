@@ -1,6 +1,7 @@
+import heroImg from "../../assets/hero.png";
 export default function Banner() {
   return (
-    <section className="py-20 px-4 flex flex-col items-center text-center font-sans">
+    <section className="mt-20 px-4 flex flex-col gap-10 items-center text-center font-sans">
       <div className="max-w-7xl mx-auto px-6">
         {/* Main Heading */}
         <h1 className="text-4xl md:text-6xl font-bold text-[#1e293b] leading-tight mb-6">
@@ -105,6 +106,9 @@ export default function Banner() {
             </div>
           </button>
         </div>
+      </div>
+      <div>
+        <img src={heroImg} alt="Hero_Image" />
       </div>
     </section>
   );
