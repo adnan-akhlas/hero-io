@@ -37,7 +37,7 @@ export default function Navbar() {
           </NavLink>
         </div>
 
-        <button className="hidden md:flex items-center gap-2 bg-purple-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-purple-700 transition-all">
+        <button className="hidden md:flex gap-2 px-10 py-2.5 bg-linear-to-r from-[#7c3aed] to-[#a855f7] text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-purple-200 active:scale-95 transition-all duration-200 items-center justify-center min-w-45">
           <IconBrandGithub size={20} />
           Contribute
         </button>
