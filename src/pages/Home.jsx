@@ -1,3 +1,9 @@
+import Banner from "../components/Home/Banner";
+
 export default function Home() {
-  return <div>This is Home Page.</div>;
+  return (
+    <div className="bg-slate-50 ">
+      <Banner />
+    </div>
+  );
 }
