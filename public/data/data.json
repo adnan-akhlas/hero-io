@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "Forest: Stay Focused",
+    "companyName": "Seekrtech",
+    "image": "https://play-lh.googleusercontent.com/2s_88S6H9M-2s6_Y-2qW_H0r2Z9z9-B_8S8S_S8S_S8S_S8S_S8S_S8S_S8S_S8S=s256",
+    "description": "Stay focused and plant beautiful trees while you work. A gamified productivity timer.",
+    "size": 126,
+    "reviews": 450000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "description": "Listen to millions of songs, albums, and original podcasts on your mobile device.",
+    "size": 85,
+    "reviews": 28000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 5500000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Notion - Notes, Docs, Tasks",
+    "companyName": "Notion Labs, Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    "description": "A new tool that blends your everyday work apps into one. It's the all-in-one workspace.",
+    "size": 52,
+    "reviews": 95000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 21500 },
+      { "name": "5 star", "count": 55000 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Duolingo_logo_%282019%29.svg",
+    "description": "Learn a new language with the world's most-downloaded education app!",
+    "size": 48,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 550000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 11500000 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
+    "description": "Slack brings team communication and collaboration into one place.",
+    "size": 72,
+    "reviews": 320000,
+    "ratingAvg": 4.0,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 150000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Discord: Talk, Chat & Hangout",
+    "companyName": "Discord Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Discord_logo_2021.svg",
+    "description": "Discord is where you can make a home for your communities and friends.",
+    "size": 95,
+    "reviews": 4800000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Trello: Manage Team Projects",
+    "companyName": "Trello, Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trello-logo.png",
+    "description": "Trello's boards, lists, and cards enable you to organize and prioritize your projects.",
+    "size": 33,
+    "reviews": 110000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 66000 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Belo.svg",
+    "description": "Unforgettable travel experiences and new places to stay around the world.",
+    "size": 110,
+    "reviews": 850000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 45000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "BeReal. Your Friends for Real",
+    "companyName": "BeReal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/BeReal_logo.png",
+    "description": "BeReal is the simplest photo sharing app to share once a day your real life in photo.",
+    "size": 65,
+    "reviews": 420000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 220000 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Headspace: Mindful Meditation",
+    "companyName": "Headspace Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Headspace_Logo.png",
+    "description": "Learn to meditate and live mindfully with hundreds of themed sessions.",
+    "size": 88,
+    "reviews": 295000,
+    "ratingAvg": 4.9,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 33000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "GitHub",
+    "companyName": "GitHub, Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+    "description": "There are a lot of things you can do on GitHub that don't require a complex development environment.",
+    "size": 42,
+    "reviews": 185000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 122500 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "description": "Pinterest is the place to explore inspiration. Discover new ideas and save what inspires you.",
+    "size": 55,
+    "reviews": 9500000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 850000 },
+      { "name": "4 star", "count": 1900000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "LinkedIn: Network & Job Finder",
+    "companyName": "LinkedIn",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "description": "Your professional community and network. Find jobs and hire employees.",
+    "size": 98,
+    "reviews": 2500000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 350000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 550000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg",
+    "description": "A powerful, free photo editor and video app that empowers you to capture and edit stunning images.",
+    "size": 150,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 85000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Evernote - Note Organizer",
+    "companyName": "Evernote Corporation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Evernote_icon.svg",
+    "description": "Capture ideas when inspiration strikes. Bring your notes, to-dos, and schedule together.",
+    "size": 68,
+    "reviews": 1600000,
+    "ratingAvg": 3.9,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Zoom Workplace",
+    "companyName": "zoom.us",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Zoom_app_icon.png",
+    "description": "Work from anywhere with a single app that combines video meetings, chat, and phone.",
+    "size": 142,
+    "reviews": 3500000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 550000 },
+      { "name": "4 star", "count": 850000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Reddit",
+    "companyName": "redditinc",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Reddit_logo.svg",
+    "description": "Reddit is where people come together to have the most authentic and interesting conversations.",
+    "size": 60,
+    "reviews": 2900000,
+    "ratingAvg": 4.0,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "description": "Simple, reliable, and private messaging and calling, available all over the world.",
+    "size": 35,
+    "reviews": 175000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 22000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 95000000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "description": "TikTok is the leading destination for short-form mobile video.",
+    "size": 92,
+    "reviews": 55000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 7500000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
+    "description": "Canva is your free photo editor, logo maker, and video editor in one design app.",
+    "size": 40,
+    "reviews": 12500000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 850000 },
+      { "name": "4 star", "count": 2250000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  }
+]

@@ -64,7 +64,7 @@ export default function Banner() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_1_716)">
+                  <g clipPath="url(#clip0_1_716)">
                     <path
                       d="M25.5328 0.00201416H6.46319C2.89163 0.00201416 0 2.89364 0 6.4652V25.5388C0 29.1064 2.89163 31.998 6.46319 31.998H25.5368C29.1044 31.998 32 29.1064 32 25.5348V6.4652C31.996 2.89364 29.1044 0.00201416 25.5328 0.00201416Z"
                       fill="url(#paint0_linear_1_716)"
@@ -91,8 +91,8 @@ export default function Banner() {
                       y2="31.998"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#00BFFC" />
-                      <stop offset="1" stop-color="#0073F6" />
+                      <stop stopColor="#00BFFC" />
+                      <stop offset="1" stopColor="#0073F6" />
                     </linearGradient>
                     <clipPath id="clip0_1_716">
                       <rect width="32" height="32" fill="white" />
