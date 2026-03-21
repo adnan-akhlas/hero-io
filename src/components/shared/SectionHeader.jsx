@@ -1,6 +1,6 @@
 export default function SectionHeader({ title, subtitle }) {
   return (
-    <div className="w-full flex flex-col items-center text-center py-10 px-4">
+    <div className="w-full flex flex-col items-center text-center">
       {/* Main Heading */}
       <h2 className="text-[#001f3f] text-3xl md:text-5xl font-extrabold tracking-tight mb-4">
         {title}
