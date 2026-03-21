@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import AppCard from "../shared/AppCard";
 import SectionHeader from "../shared/SectionHeader";
 
@@ -31,6 +32,11 @@ export default function Trending() {
       />
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <AppCard app={app} />
+      </div>
+      <div className="flex w-full justify-center py-12">
+        <button className="px-10 py-2.5 bg-linear-to-r from-[#7c3aed] to-[#a855f7] text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-purple-200 hover:-translate-y-0.5 active:scale-95 transition-all duration-200 flex items-center justify-center min-w-45">
+          <Link to={"/apps"}>Show All</Link>
+        </button>
       </div>
     </section>
   );
