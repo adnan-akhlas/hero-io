@@ -1,6 +1,7 @@
 import { use, useMemo, useState } from "react";
 import AppCard from "../components/shared/AppCard";
 import SectionHeader from "../components/shared/SectionHeader";
+import { IconSearch } from "@tabler/icons-react";
 
 const appPromise = fetch("/data/data.json").then((res) => res.json());
 
@@ -33,19 +34,7 @@ export default function Apps() {
         {/* Search Input Field */}
         <div className="relative w-full md:w-96">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <svg
-              className="h-5 w-5 text-slate-400"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
+            <IconSearch className="text-slate-400" />
           </div>
           <input
             type="text"
