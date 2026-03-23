@@ -12,8 +12,12 @@ export default function AppCard({ app }) {
     <Link to={`/apps/${id}`}>
       <div className="bg-white rounded-2xl p-4 shadow-sm border border-slate-100 flex flex-col gap-4 h-full w-full">
         {/* App Image Placeholder / Image */}
-        <div className="w-full aspect-square bg-[#d9d9d9] rounded-xl overflow-hidden">
-          <img src={image} alt={title} className="w-full h-full object-cover" />
+        <div className="w-full aspect-square rounded-xl overflow-hidden">
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-full object-object-contain object-scale-down"
+          />
         </div>
 
         {/* App Title */}
