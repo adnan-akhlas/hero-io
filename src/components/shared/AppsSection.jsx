@@ -3,6 +3,7 @@ import {
   IconSearch,
   IconChevronLeft,
   IconChevronRight,
+  IconArrowsSort,
 } from "@tabler/icons-react";
 import AppCard from "./AppCard";
 import { getAppPromise } from "../../api/data";
@@ -12,23 +13,30 @@ const appPromise = getAppPromise();
 export default function AppsSection({ limit = null, showOptions = false }) {
   const allApps = use(appPromise);
   const [searchQuery, setSearchQuery] = useState("");
-
   const [currentPage, setCurrentPage] = useState(1);
+  const [sortOrder, setSortOrder] = useState("desc");
   const itemsPerPage = 8;
 
-  const filteredApps = useMemo(() => {
-    const filtered = allApps.filter((app) =>
+  const processedApps = useMemo(() => {
+    let filtered = allApps.filter((app) =>
       app.title.toLowerCase().includes(searchQuery.toLowerCase()),
     );
-    return limit ? filtered.slice(0, limit) : filtered;
-  }, [allApps, searchQuery, limit]);
 
-  const totalPages = Math.ceil(filteredApps.length / itemsPerPage);
+    filtered.sort((a, b) => {
+      return sortOrder === "desc"
+        ? b.downloads - a.downloads
+        : a.downloads - b.downloads;
+    });
+
+    return limit ? filtered.slice(0, limit) : filtered;
+  }, [allApps, searchQuery, limit, sortOrder]);
+
+  const totalPages = Math.ceil(processedApps.length / itemsPerPage);
 
   const paginatedApps = useMemo(() => {
     const startIndex = (currentPage - 1) * itemsPerPage;
-    return filteredApps.slice(startIndex, startIndex + itemsPerPage);
-  }, [filteredApps, currentPage]);
+    return processedApps.slice(startIndex, startIndex + itemsPerPage);
+  }, [processedApps, currentPage]);
 
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
@@ -37,13 +45,30 @@ export default function AppsSection({ limit = null, showOptions = false }) {
 
   return (
     <>
-      {/* Search and Count Bar */}
+      {/* Search and Options Bar */}
       {showOptions && (
-        <div className="flex flex-col md:flex-row justify-between items-center border-b border-slate-100 gap-4 pb-4">
-          {/* Total Apps Count */}
-          <h3 className="text-[#001f3f] text-xl font-bold">
-            ({filteredApps.length}) Apps Found
-          </h3>
+        <div className="flex flex-col md:flex-row justify-between items-center border-b border-slate-100 gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
+            <h3 className="text-[#001f3f] text-xl font-bold whitespace-nowrap">
+              ({processedApps.length}) Apps Found
+            </h3>
+
+            {/* Sort Dropdown */}
+            <div className="relative flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2">
+              <IconArrowsSort size={18} className="text-slate-400" />
+              <select
+                value={sortOrder}
+                onChange={(e) => {
+                  setSortOrder(e.target.value);
+                  setCurrentPage(1);
+                }}
+                className="bg-transparent text-slate-600 focus:outline-none text-sm font-medium cursor-pointer"
+              >
+                <option value="desc">Most Downloads</option>
+                <option value="asc">Least Downloads</option>
+              </select>
+            </div>
+          </div>
 
           {/* Search Input Field */}
           <div className="relative w-full md:w-96">
@@ -63,7 +88,7 @@ export default function AppsSection({ limit = null, showOptions = false }) {
         </div>
       )}
 
-      {/* Grid of Filtered and Paginated Apps */}
+      {/* Grid */}
       {paginatedApps.length > 0 ? (
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
           {paginatedApps.map((app) => (
@@ -78,7 +103,7 @@ export default function AppsSection({ limit = null, showOptions = false }) {
         </div>
       )}
 
-      {/* 5. Pagination Controls */}
+      {/* Pagination Controls */}
       {totalPages > 1 && (
         <div className="flex justify-center items-center gap-4 mt-10">
           <button
@@ -90,7 +115,7 @@ export default function AppsSection({ limit = null, showOptions = false }) {
             Previous
           </button>
 
-          <span className="text-slate-500 font-medium">
+          <span className="text-slate-500 font-medium text-sm">
             Page <span className="text-[#001f3f] font-bold">{currentPage}</span>{" "}
             of {totalPages}
           </span>
