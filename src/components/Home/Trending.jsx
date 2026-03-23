@@ -1,25 +1,19 @@
+import { Suspense } from "react";
 import { Link } from "react-router";
-import AppCard from "../shared/AppCard";
 import SectionHeader from "../shared/SectionHeader";
-import { use } from "react";
-import { getAppPromise } from "../../api/data";
-
-const appPromise = getAppPromise();
+import AppsSection from "../shared/AppsSection";
+import AppsSkeleton from "../shared/AppsSkeleton";
 
 export default function Trending() {
-  const apps = use(appPromise);
-
   return (
     <section className="max-w-7xl mx-auto px-6 my-20 space-y-6">
       <SectionHeader
         title={"Trending Apps"}
         subtitle={"Explore All Trending Apps on the Market developed by us"}
       />
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {apps.slice(0, 8).map((app) => (
-          <AppCard key={app.id} app={app} />
-        ))}
-      </div>
+      <Suspense fallback={<AppsSkeleton />}>
+        <AppsSection limit={8} />
+      </Suspense>
       <div className="flex w-full justify-center">
         <button>
           <Link
