@@ -1,362 +1,752 @@
 [
   {
     "id": 1,
-    "title": "Forest: Stay Focused",
-    "companyName": "Seekrtech",
-    "image": "https://play-lh.googleusercontent.com/2s_88S6H9M-2s6_Y-2qW_H0r2Z9z9-B_8S8S_S8S_S8S_S8S_S8S_S8S_S8S_S8S=s256",
-    "description": "Stay focused and plant beautiful trees while you work. A gamified productivity timer.",
-    "size": 126,
-    "reviews": 450000,
-    "ratingAvg": 4.8,
-    "downloads": 10000000,
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "image": "https://www.svgrepo.com/show/452229/instagram-1.svg",
+    "description": "Connect with friends, share what you're up to, or see what's new.",
+    "size": 48,
+    "reviews": 145000000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 80000 },
-      { "name": "5 star", "count": 350000 }
+      { "name": "1 star", "count": 15000000 },
+      { "name": "5 star", "count": 90000000 }
     ]
   },
   {
     "id": 2,
-    "title": "Spotify: Music and Podcasts",
-    "companyName": "Spotify AB",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    "description": "Listen to millions of songs, albums, and original podcasts on your mobile device.",
-    "size": 85,
-    "reviews": 28000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "image": "https://www.svgrepo.com/show/475692/whatsapp-color.svg",
+    "description": "Simple, reliable, and private messaging and calling.",
+    "size": 36,
+    "reviews": 175000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 5500000 },
-      { "name": "5 star", "count": 18000000 }
+      { "name": "1 star", "count": 12000000 },
+      { "name": "5 star", "count": 95000000 }
     ]
   },
   {
     "id": 3,
-    "title": "Notion - Notes, Docs, Tasks",
-    "companyName": "Notion Labs, Inc.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
-    "description": "A new tool that blends your everyday work apps into one. It's the all-in-one workspace.",
-    "size": 52,
-    "reviews": 95000,
-    "ratingAvg": 4.2,
-    "downloads": 5000000,
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "image": "https://www.svgrepo.com/show/303156/tiktok-icon-white-1-logo.svg",
+    "description": "Short-form mobile video that is exciting and genuine.",
+    "size": 95,
+    "reviews": 58000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 3500 },
-      { "name": "3 star", "count": 11000 },
-      { "name": "4 star", "count": 21500 },
-      { "name": "5 star", "count": 55000 }
+      { "name": "1 star", "count": 5000000 },
+      { "name": "5 star", "count": 30000000 }
     ]
   },
   {
     "id": 4,
-    "title": "Duolingo: Language Lessons",
-    "companyName": "Duolingo",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Duolingo_logo_%282019%29.svg",
-    "description": "Learn a new language with the world's most-downloaded education app!",
-    "size": 48,
-    "reviews": 15000000,
-    "ratingAvg": 4.7,
-    "downloads": 500000000,
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "image": "https://www.svgrepo.com/show/475684/spotify-color.svg",
+    "description": "Listen to millions of songs, albums, and original podcasts.",
+    "size": 82,
+    "reviews": 29000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 550000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 11500000 }
+      { "name": "1 star", "count": 1000000 },
+      { "name": "5 star", "count": 18000000 }
     ]
   },
   {
     "id": 5,
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "image": "https://www.svgrepo.com/show/354109/netflix-icon.svg",
+    "description": "Watch TV shows and movies recommended just for you.",
+    "size": 98,
+    "reviews": 14000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "image": "https://www.svgrepo.com/show/353819/google-maps.svg",
+    "description": "Real-time GPS navigation, traffic, and transit info.",
+    "size": 65,
+    "reviews": 19000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "image": "https://www.svgrepo.com/show/475700/youtube-color.svg",
+    "description": "Watch, stream, and discover what the world is watching.",
+    "size": 125,
+    "reviews": 140000000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000000 },
+      { "name": "5 star", "count": 70000000 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "image": "https://www.svgrepo.com/show/353655/discord-icon.svg",
+    "description": "Make a home for your communities and friends.",
+    "size": 91,
+    "reviews": 5000000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "image": "https://www.svgrepo.com/show/504295/duolingo.svg",
+    "description": "Learn a new language with the world's most-downloaded education app.",
+    "size": 52,
+    "reviews": 16000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Microsoft Outlook",
+    "companyName": "Microsoft Corporation",
+    "image": "https://www.svgrepo.com/show/452067/ms-outlook.svg",
+    "description": "Connect your email, calendar, and files in one spot.",
+    "size": 75,
+    "reviews": 9500000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "id": 11,
     "title": "Slack",
     "companyName": "Slack Technologies",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
-    "description": "Slack brings team communication and collaboration into one place.",
+    "image": "https://www.svgrepo.com/show/448248/slack.svg",
+    "description": "Team communication and collaboration in one place.",
     "size": 72,
     "reviews": 320000,
     "ratingAvg": 4.0,
     "downloads": 10000000,
     "ratings": [
       { "name": "1 star", "count": 25000 },
-      { "name": "2 star", "count": 20000 },
-      { "name": "3 star", "count": 45000 },
-      { "name": "4 star", "count": 80000 },
       { "name": "5 star", "count": 150000 }
     ]
   },
   {
-    "id": 6,
-    "title": "Discord: Talk, Chat & Hangout",
-    "companyName": "Discord Inc.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Discord_logo_2021.svg",
-    "description": "Discord is where you can make a home for your communities and friends.",
-    "size": 95,
-    "reviews": 4800000,
-    "ratingAvg": 4.4,
-    "downloads": 100000000,
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 350000 },
-      { "name": "4 star", "count": 900000 },
-      { "name": "5 star", "count": 3000000 }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Trello: Manage Team Projects",
-    "companyName": "Trello, Inc.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trello-logo.png",
-    "description": "Trello's boards, lists, and cards enable you to organize and prioritize your projects.",
-    "size": 33,
-    "reviews": 110000,
-    "ratingAvg": 4.4,
+    "id": 12,
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "image": "https://www.svgrepo.com/show/306484/notion.svg",
+    "description": "Notes, docs, tasks, and more.",
+    "size": 52,
+    "reviews": 95000,
+    "ratingAvg": 4.2,
     "downloads": 10000000,
     "ratings": [
       { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 25000 },
-      { "name": "5 star", "count": 66000 }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Airbnb",
-    "companyName": "Airbnb, Inc.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Belo.svg",
-    "description": "Unforgettable travel experiences and new places to stay around the world.",
-    "size": 110,
-    "reviews": 850000,
-    "ratingAvg": 4.6,
-    "downloads": 50000000,
-    "ratings": [
-      { "name": "1 star", "count": 45000 },
-      { "name": "2 star", "count": 25000 },
-      { "name": "3 star", "count": 60000 },
-      { "name": "4 star", "count": 120000 },
-      { "name": "5 star", "count": 600000 }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "BeReal. Your Friends for Real",
-    "companyName": "BeReal",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/BeReal_logo.png",
-    "description": "BeReal is the simplest photo sharing app to share once a day your real life in photo.",
-    "size": 65,
-    "reviews": 420000,
-    "ratingAvg": 4.1,
-    "downloads": 10000000,
-    "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 35000 },
-      { "name": "3 star", "count": 45000 },
-      { "name": "4 star", "count": 70000 },
-      { "name": "5 star", "count": 220000 }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Headspace: Mindful Meditation",
-    "companyName": "Headspace Inc.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Headspace_Logo.png",
-    "description": "Learn to meditate and live mindfully with hundreds of themed sessions.",
-    "size": 88,
-    "reviews": 295000,
-    "ratingAvg": 4.9,
-    "downloads": 10000000,
-    "ratings": [
-      { "name": "1 star", "count": 2000 },
-      { "name": "2 star", "count": 1500 },
-      { "name": "3 star", "count": 8500 },
-      { "name": "4 star", "count": 33000 },
-      { "name": "5 star", "count": 250000 }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "GitHub",
-    "companyName": "GitHub, Inc.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
-    "description": "There are a lot of things you can do on GitHub that don't require a complex development environment.",
-    "size": 42,
-    "reviews": 185000,
-    "ratingAvg": 4.7,
-    "downloads": 10000000,
-    "ratings": [
-      { "name": "1 star", "count": 3000 },
-      { "name": "2 star", "count": 2500 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 45000 },
-      { "name": "5 star", "count": 122500 }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Pinterest",
-    "companyName": "Pinterest",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
-    "description": "Pinterest is the place to explore inspiration. Discover new ideas and save what inspires you.",
-    "size": 55,
-    "reviews": 9500000,
-    "ratingAvg": 4.6,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 450000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 850000 },
-      { "name": "4 star", "count": 1900000 },
-      { "name": "5 star", "count": 6000000 }
+      { "name": "5 star", "count": 55000 }
     ]
   },
   {
     "id": 13,
-    "title": "LinkedIn: Network & Job Finder",
+    "title": "LinkedIn",
     "companyName": "LinkedIn",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-    "description": "Your professional community and network. Find jobs and hire employees.",
+    "image": "https://www.svgrepo.com/show/448234/linkedin.svg",
+    "description": "Your professional community and network.",
     "size": 98,
     "reviews": 2500000,
     "ratingAvg": 4.1,
     "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 350000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 250000 },
-      { "name": "4 star", "count": 550000 },
       { "name": "5 star", "count": 1200000 }
     ]
   },
   {
     "id": 14,
-    "title": "Adobe Lightroom",
-    "companyName": "Adobe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg",
-    "description": "A powerful, free photo editor and video app that empowers you to capture and edit stunning images.",
-    "size": 150,
-    "reviews": 1200000,
-    "ratingAvg": 4.7,
-    "downloads": 100000000,
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "image": "https://www.svgrepo.com/show/349527/telegram.svg",
+    "description": "Simple, fast, secure, and synced across all your devices.",
+    "size": 38,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 35000 },
-      { "name": "2 star", "count": 20000 },
-      { "name": "3 star", "count": 85000 },
-      { "name": "4 star", "count": 210000 },
-      { "name": "5 star", "count": 850000 }
+      { "name": "1 star", "count": 800000 },
+      { "name": "5 star", "count": 8000000 }
     ]
   },
   {
     "id": 15,
-    "title": "Evernote - Note Organizer",
-    "companyName": "Evernote Corporation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Evernote_icon.svg",
-    "description": "Capture ideas when inspiration strikes. Bring your notes, to-dos, and schedule together.",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "image": "https://www.svgrepo.com/show/452104/snapchat.svg",
+    "description": "Share the moment with friends and family.",
     "size": 68,
-    "reviews": 1600000,
-    "ratingAvg": 3.9,
-    "downloads": 100000000,
+    "reviews": 31000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 250000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 300000 },
-      { "name": "5 star", "count": 700000 }
+      { "name": "1 star", "count": 3000000 },
+      { "name": "5 star", "count": 20000000 }
     ]
   },
   {
     "id": 16,
-    "title": "Zoom Workplace",
-    "companyName": "zoom.us",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Zoom_app_icon.png",
-    "description": "Work from anywhere with a single app that combines video meetings, chat, and phone.",
-    "size": 142,
-    "reviews": 3500000,
-    "ratingAvg": 4.2,
-    "downloads": 500000000,
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "image": "https://www.svgrepo.com/show/349532/trello.svg",
+    "description": "Organize and prioritize your projects.",
+    "size": 33,
+    "reviews": 110000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 550000 },
-      { "name": "4 star", "count": 850000 },
-      { "name": "5 star", "count": 1600000 }
+      { "name": "1 star", "count": 4000 },
+      { "name": "5 star", "count": 66000 }
     ]
   },
   {
     "id": 17,
     "title": "Reddit",
-    "companyName": "redditinc",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Reddit_logo.svg",
-    "description": "Reddit is where people come together to have the most authentic and interesting conversations.",
+    "companyName": "Reddit Inc.",
+    "image": "https://www.svgrepo.com/show/452094/reddit.svg",
+    "description": "Authentic and interesting conversations.",
     "size": 60,
     "reviews": 2900000,
     "ratingAvg": 4.0,
     "downloads": 100000000,
     "ratings": [
       { "name": "1 star", "count": 450000 },
-      { "name": "2 star", "count": 250000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 600000 },
       { "name": "5 star", "count": 1200000 }
     ]
   },
   {
     "id": 18,
-    "title": "WhatsApp Messenger",
-    "companyName": "WhatsApp LLC",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "description": "Simple, reliable, and private messaging and calling, available all over the world.",
-    "size": 35,
-    "reviews": 175000000,
-    "ratingAvg": 4.3,
-    "downloads": 5000000000,
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "image": "https://www.svgrepo.com/show/475670/pinterest-color.svg",
+    "description": "Explore inspiration and discover new ideas.",
+    "size": 55,
+    "reviews": 9500000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
     "ratings": [
-      { "name": "1 star", "count": 15000000 },
-      { "name": "2 star", "count": 8000000 },
-      { "name": "3 star", "count": 22000000 },
-      { "name": "4 star", "count": 35000000 },
-      { "name": "5 star", "count": 95000000 }
+      { "name": "1 star", "count": 450000 },
+      { "name": "5 star", "count": 6000000 }
     ]
   },
   {
     "id": 19,
-    "title": "TikTok",
-    "companyName": "TikTok Pte. Ltd.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
-    "description": "TikTok is the leading destination for short-form mobile video.",
-    "size": 92,
-    "reviews": 55000000,
-    "ratingAvg": 4.4,
-    "downloads": 1000000000,
+    "title": "Zoom",
+    "companyName": "Zoom Video",
+    "image": "https://www.svgrepo.com/show/452140/zoom.svg",
+    "description": "Video meetings, chat, and phone.",
+    "size": 142,
+    "reviews": 3500000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 2500000 },
-      { "name": "3 star", "count": 7500000 },
-      { "name": "4 star", "count": 12000000 },
-      { "name": "5 star", "count": 28000000 }
+      { "name": "1 star", "count": 300000 },
+      { "name": "5 star", "count": 1600000 }
     ]
   },
   {
     "id": 20,
-    "title": "Canva: Design, Photo & Video",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe",
+    "image": "https://www.svgrepo.com/show/303199/lightroom-cc-logo.svg",
+    "description": "Powerful photo editor and video app.",
+    "size": 150,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "GitHub",
+    "companyName": "GitHub, Inc.",
+    "image": "https://www.svgrepo.com/show/452211/github.svg",
+    "description": "The world's leading AI-powered developer platform.",
+    "size": 42,
+    "reviews": 185000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "5 star", "count": 122500 }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "image": "https://www.svgrepo.com/show/331621/uber.svg",
+    "description": "Request a ride and get where you're going.",
+    "size": 115,
+    "reviews": 12000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "image": "https://www.svgrepo.com/show/452152/airbnb.svg",
+    "description": "Unforgettable travel experiences and places to stay.",
+    "size": 110,
+    "reviews": 850000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 45000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Canva",
     "companyName": "Canva",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
-    "description": "Canva is your free photo editor, logo maker, and video editor in one design app.",
+    "image": "https://www.svgrepo.com/show/305835/canva.svg",
+    "description": "Free photo editor, logo maker, and video editor.",
     "size": 40,
     "reviews": 12500000,
     "ratingAvg": 4.8,
     "downloads": 100000000,
     "ratings": [
       { "name": "1 star", "count": 250000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 850000 },
-      { "name": "4 star", "count": 2250000 },
       { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Twitch",
+    "companyName": "Twitch Interactive",
+    "image": "https://www.svgrepo.com/show/331620/twitch-v2.svg",
+    "description": "Live stream your favorite games and content.",
+    "size": 85,
+    "reviews": 4500000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Hulu",
+    "companyName": "Hulu, LLC",
+    "image": "https://www.svgrepo.com/show/303524/hulu-logo.svg",
+    "description": "Stream movies, TV shows, and more.",
+    "size": 78,
+    "reviews": 2500000,
+    "ratingAvg": 4.3,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Amazon Prime Video",
+    "companyName": "Amazon",
+    "image": "https://www.svgrepo.com/show/329908/amazonprime.svg",
+    "description": "Watch movies and TV shows including Amazon Originals.",
+    "size": 65,
+    "reviews": 3500000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Crunchyroll",
+    "companyName": "Crunchyroll, LLC",
+    "image": "https://www.svgrepo.com/show/343546/crunchyroll-network-connection-communication-interaction.svg",
+    "description": "The world's largest anime collection.",
+    "size": 92,
+    "reviews": 1500000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Audible",
+    "companyName": "Audible, Inc.",
+    "image": "https://www.svgrepo.com/show/463959/audible-square.svg",
+    "description": "The home of storytelling. Audiobooks and more.",
+    "size": 55,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "5 star", "count": 900000 }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Kindle",
+    "companyName": "Amazon",
+    "image": "https://www.svgrepo.com/show/61235/amazon.svg",
+    "description": "Read anytime, anywhere.",
+    "size": 62,
+    "reviews": 2500000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "SoundCloud",
+    "companyName": "SoundCloud",
+    "image": "https://www.svgrepo.com/show/452103/soundcloud.svg",
+    "description": "The world’s largest music and audio platform.",
+    "size": 45,
+    "reviews": 5000000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "PayPal",
+    "companyName": "PayPal",
+    "image": "https://www.svgrepo.com/show/362021/paypal-3.svg",
+    "description": "Send money and pay online.",
+    "size": 88,
+    "reviews": 6000000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "5 star", "count": 4500000 }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "image": "https://www.svgrepo.com/show/366647/chrome.svg",
+    "description": "Fast and secure web browser.",
+    "size": 95,
+    "reviews": 45000000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "image": "https://www.svgrepo.com/show/306719/shazam.svg",
+    "description": "Identify music playing around you.",
+    "size": 25,
+    "reviews": 7500000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Waze",
+    "companyName": "Waze Mobile",
+    "image": "https://www.svgrepo.com/show/505076/waze.svg",
+    "description": "Crowdsourced navigation and traffic.",
+    "size": 75,
+    "reviews": 8500000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "LastPass",
+    "companyName": "LastPass",
+    "image": "https://www.svgrepo.com/show/349433/lastpass.svg",
+    "description": "Password manager and digital vault.",
+    "size": 32,
+    "reviews": 250000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "5 star", "count": 180000 }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Duolingo ABC",
+    "companyName": "Duolingo",
+    "image": "https://www.svgrepo.com/show/516044/duolingo.svg",
+    "description": "Learn to read with your favorite characters.",
+    "size": 110,
+    "reviews": 50000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Evernote",
+    "companyName": "Evernote Corp.",
+    "image": "https://www.svgrepo.com/show/331383/evernote.svg",
+    "description": "Note organizer and planner.",
+    "size": 68,
+    "reviews": 1600000,
+    "ratingAvg": 3.9,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "image": "https://www.svgrepo.com/show/452111/teams.svg",
+    "description": "Collaborate and communicate with your team.",
+    "size": 120,
+    "reviews": 5500000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "image": "https://www.svgrepo.com/show/475644/drive-color.svg",
+    "description": "Store and access your files from anywhere.",
+    "size": 55,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Pinterest Lite",
+    "companyName": "Pinterest",
+    "image": "https://www.svgrepo.com/show/452086/pinterest.svg",
+    "description": "Fast and light version of Pinterest.",
+    "size": 12,
+    "reviews": 150000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Asana",
+    "companyName": "Asana, Inc.",
+    "image": "https://www.svgrepo.com/show/353425/asana.svg",
+    "description": "Work management and collaboration.",
+    "size": 48,
+    "reviews": 85000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Todoist",
+    "companyName": "Doist",
+    "image": "https://www.svgrepo.com/show/354452/todoist-icon.svg",
+    "description": "The world's #1 task manager and to-do list.",
+    "size": 35,
+    "reviews": 250000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "5 star", "count": 200000 }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Google Sheets",
+    "companyName": "Google LLC",
+    "image": "https://www.svgrepo.com/show/217147/sheets-sheet.svg",
+    "description": "Create, edit, and collaborate on spreadsheets.",
+    "size": 42,
+    "reviews": 1200000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "5 star", "count": 900000 }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Disney+",
+    "companyName": "Disney",
+    "image": "https://www.svgrepo.com/show/461128/disney-plus.svg",
+    "description": "Stream the best stories from Disney and Pixar.",
+    "size": 95,
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "5 star", "count": 1800000 }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "HBO Max",
+    "companyName": "WarnerMedia",
+    "image": "https://www.svgrepo.com/show/504453/hbo-max.svg",
+    "description": "Premium streaming for all of HBO.",
+    "size": 105,
+    "reviews": 1800000,
+    "ratingAvg": 4.1,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Steam",
+    "companyName": "Valve Corp.",
+    "image": "https://www.svgrepo.com/show/452107/steam.svg",
+    "description": "The destination for playing games.",
+    "size": 40,
+    "reviews": 1500000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "BeReal",
+    "companyName": "BeReal",
+    "image": "https://www.svgrepo.com/show/504145/bereal.svg",
+    "description": "Share your real life once a day.",
+    "size": 65,
+    "reviews": 420000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "5 star", "count": 220000 }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Headspace",
+    "companyName": "Headspace Inc.",
+    "image": "https://www.svgrepo.com/show/330619/headspace.svg",
+    "description": "Meditation and mindfulness.",
+    "size": 88,
+    "reviews": 295000,
+    "ratingAvg": 4.9,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Duolingo Math",
+    "companyName": "Duolingo",
+    "image": "https://www.svgrepo.com/show/516045/duolingo-alt.svg",
+    "description": "Learn math with gamified lessons.",
+    "size": 50,
+    "reviews": 15000,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "5 star", "count": 12000 }
     ]
   }
 ]
