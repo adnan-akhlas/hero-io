@@ -1,7 +1,17 @@
 import { use, useMemo, useState } from "react";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 import { useParams } from "react-router";
 import { getAppPromise } from "../api/data";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Cell,
+} from "recharts";
 
 const appPromise = getAppPromise();
 
@@ -10,8 +20,13 @@ export default function AppDetails() {
   const { id } = useParams();
 
   const [installedList, setInstalledList] = useState(() => {
-    const saved = localStorage.getItem("installed-items");
-    return saved ? JSON.parse(saved) : [];
+    try {
+      const saved = localStorage.getItem("installed-items");
+      return saved ? JSON.parse(saved) : [];
+    } catch (error) {
+      console.error("Failed to load storage", error);
+      return [];
+    }
   });
 
   const app = useMemo(() => {
@@ -22,15 +37,14 @@ export default function AppDetails() {
     return { ...baseApp, installed: isInstalled };
   }, [apps, id, installedList]);
 
+  const chartData = useMemo(() => {
+    return app ? [...app.ratings].reverse() : [];
+  }, [app]);
+
   if (!app) return <div className="py-20 text-center">App not found</div>;
 
-  const maxRatingCount = Math.max(...app.ratings.map((r) => r.count));
-
   const handleInstallAction = () => {
-    if (app.installed) {
-      toast.error("App is already installed!");
-      return;
-    }
+    if (app.installed) return;
 
     try {
       const newItem = { ...app, installed: true };
@@ -51,14 +65,16 @@ export default function AppDetails() {
         },
       });
     } catch (error) {
-      console.log(error);
+      console.error(error);
       toast.error("Failed to install app. Please try again.");
     }
   };
 
   return (
     <div className="max-w-5xl my-20 rounded-2xl mx-auto px-4">
-      {/* Hero Section */}
+      <Toaster position="top-center" />
+
+      {/* 1. Hero Section */}
       <div className="flex flex-col md:flex-row gap-8 mb-12 items-start">
         <div className="w-48 h-48 rounded-3xl border border-slate-100 p-4 shadow-sm shrink-0 bg-white">
           <img
@@ -106,30 +122,50 @@ export default function AppDetails() {
 
       <hr className="border-slate-100 mb-10" />
 
-      {/* Ratings Section */}
+      {/* 2. Ratings Section (Recharts Implementation) */}
       <div className="mb-12">
         <h2 className="text-xl font-bold text-[#001f3f] mb-6">Ratings</h2>
-        <div className="space-y-3 max-w-2xl">
-          {[...app.ratings].reverse().map((rating) => (
-            <div key={rating.name} className="flex items-center gap-4">
-              <span className="text-xs text-slate-500 w-10 text-nowrap">
-                {rating.name}
-              </span>
-              <div className="grow bg-slate-100 h-4 rounded-full overflow-hidden">
-                <div
-                  className="bg-orange-500 h-full rounded-full transition-all duration-500"
-                  style={{ width: `${(rating.count / maxRatingCount) * 100}%` }}
-                />
-              </div>
-              <span className="text-xs text-slate-400 w-10">
-                {rating.count}
-              </span>
-            </div>
-          ))}
+        <div className="h-80 w-full">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart layout="vertical" data={chartData}>
+              <CartesianGrid
+                strokeDasharray="3 3"
+                horizontal={false}
+                stroke="#e2e8f0"
+              />
+              <XAxis
+                type="number"
+                axisLine={false}
+                tickLine={false}
+                tick={{ fill: "#94a3b8", fontSize: 12 }}
+              />
+              <YAxis
+                dataKey="name"
+                type="category"
+                axisLine={false}
+                tickLine={false}
+                tick={{ fill: "#94a3b8", fontSize: 12 }}
+                width={60}
+              />
+              <Tooltip
+                cursor={{ fill: "transparent" }}
+                contentStyle={{
+                  borderRadius: "4px",
+                  border: "none",
+                  boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+                }}
+              />
+              <Bar dataKey="count" barSize={24}>
+                {chartData.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill="#ff8c1a" />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
         </div>
       </div>
 
-      {/* Description Section */}
+      {/* 3. Description Section */}
       <div>
         <h2 className="text-xl font-bold text-[#001f3f] mb-4">Description</h2>
         <div className="text-slate-500 leading-relaxed space-y-4">
