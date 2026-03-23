@@ -51,6 +51,7 @@ export default function AppDetails() {
         },
       });
     } catch (error) {
+      console.log(error);
       toast.error("Failed to install app. Please try again.");
     }
   };
