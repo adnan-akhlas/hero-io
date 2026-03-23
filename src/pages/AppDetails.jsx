@@ -125,41 +125,40 @@ export default function AppDetails() {
       {/* 2. Ratings Section (Recharts Implementation) */}
       <div className="mb-12">
         <h2 className="text-xl font-bold text-[#001f3f] mb-6">Ratings</h2>
-        <div className="h-80 w-full">
+        {/* Fixing the height and removing the container padding/border issues */}
+        <div style={{ width: "100%", height: 280 }}>
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart layout="vertical" data={chartData}>
+            <BarChart
+              layout="vertical"
+              data={chartData}
+              margin={{ left: -20, right: 30, top: 0, bottom: 0 }}
+            >
               <CartesianGrid
-                strokeDasharray="3 3"
                 horizontal={false}
-                stroke="#e2e8f0"
+                vertical={false}
+                stroke="none"
               />
+
               <XAxis
                 type="number"
-                axisLine={false}
+                axisLine={{ stroke: "#e2e8f0" }}
                 tickLine={false}
                 tick={{ fill: "#94a3b8", fontSize: 12 }}
+                dy={10}
               />
+
               <YAxis
                 dataKey="name"
                 type="category"
                 axisLine={false}
                 tickLine={false}
-                tick={{ fill: "#94a3b8", fontSize: 12 }}
-                width={60}
+                tick={{ fill: "#94a3b8", fontSize: 13 }}
+                width={80}
               />
-              <Tooltip
-                cursor={{ fill: "transparent" }}
-                contentStyle={{
-                  borderRadius: "4px",
-                  border: "none",
-                  boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-                }}
-              />
-              <Bar dataKey="count" barSize={24}>
-                {chartData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill="#ff8c1a" />
-                ))}
-              </Bar>
+
+              <Tooltip cursor={{ fill: "transparent" }} />
+
+              <Bar dataKey="count" fill="#ff8c1a" barSize={20} />
             </BarChart>
           </ResponsiveContainer>
         </div>
