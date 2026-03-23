@@ -1,8 +1,9 @@
 import { use, useMemo, useState } from "react";
 import { IconSearch } from "@tabler/icons-react";
 import AppCard from "./AppCard";
+import { getAppPromise } from "../../api/data";
 
-const appPromise = fetch("/data/data.json").then((res) => res.json());
+const appPromise = getAppPromise();
 
 export default function AppsSection({ limit = null, showOptions = false }) {
   const allApps = use(appPromise);
