@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   body {
     @apply bg-slate-50;
   }

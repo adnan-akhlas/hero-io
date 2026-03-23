@@ -1,6 +1,6 @@
 import { use, useMemo, useState } from "react";
-import SectionHeader from "../components/shared/SectionHeader";
 import AppCard from "../components/shared/AppCard";
+import SectionHeader from "../components/shared/SectionHeader";
 
 const appPromise = fetch("/data/data.json").then((res) => res.json());
 

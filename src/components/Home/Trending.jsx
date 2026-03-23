@@ -2,8 +2,9 @@ import { Link } from "react-router";
 import AppCard from "../shared/AppCard";
 import SectionHeader from "../shared/SectionHeader";
 import { use } from "react";
+import { getAppPromise } from "../../api/data";
 
-const appPromise = fetch("/data/data.json").then((res) => res.json());
+const appPromise = getAppPromise();
 
 export default function Trending() {
   const apps = use(appPromise);
