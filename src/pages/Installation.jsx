@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function Installation() {
   const [installedApps, setInstalledApps] = useState(() => {
@@ -10,22 +11,27 @@ export default function Installation() {
 
   const sortedApps = useMemo(() => {
     const list = [...installedApps];
-
     return list.sort((a, b) => {
-      if (sortBy === "size") {
-        return b.size - a.size;
-      }
-      if (sortBy === "name") {
-        return a.title.localeCompare(b.title);
-      }
+      if (sortBy === "size") return b.size - a.size;
+      if (sortBy === "name") return a.title.localeCompare(b.title);
       return 0;
     });
   }, [installedApps, sortBy]);
 
-  const handleUninstall = (id) => {
+  const handleUninstall = (id, title) => {
     const updatedApps = installedApps.filter((app) => app.id !== id);
+
     setInstalledApps(updatedApps);
     localStorage.setItem("installed-items", JSON.stringify(updatedApps));
+
+    toast.success(`${title} uninstalled`, {
+      icon: "🗑️",
+      style: {
+        borderRadius: "10px",
+        background: "#333",
+        color: "#fff",
+      },
+    });
   };
 
   return (
@@ -36,7 +42,6 @@ export default function Installation() {
           {sortedApps.length} Apps Found
         </h2>
 
-        {/* Controlled Select Input */}
         <select
           value={sortBy}
           onChange={(e) => setSortBy(e.target.value)}
@@ -85,7 +90,7 @@ export default function Installation() {
               </div>
 
               <button
-                onClick={() => handleUninstall(app.id)}
+                onClick={() => handleUninstall(app.id, app.title)}
                 className="bg-[#00cba9] hover:bg-red-500 text-white font-bold py-2 px-6 rounded-lg transition-all"
               >
                 Uninstall

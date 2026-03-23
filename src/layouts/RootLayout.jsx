@@ -3,6 +3,7 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import { useLocation } from "react-router";
 import { useEffect } from "react";
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout() {
   const { pathname } = useLocation();
@@ -18,6 +19,7 @@ export default function RootLayout() {
         <Outlet />
       </main>
       <Footer />
+      <Toaster />
     </div>
   );
 }

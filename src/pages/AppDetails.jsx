@@ -1,4 +1,5 @@
 import { use, useMemo, useState } from "react";
+import toast from "react-hot-toast";
 import { useParams } from "react-router";
 import { getAppPromise } from "../api/data";
 
@@ -26,18 +27,37 @@ export default function AppDetails() {
   const maxRatingCount = Math.max(...app.ratings.map((r) => r.count));
 
   const handleInstallAction = () => {
-    if (app.installed) return;
+    if (app.installed) {
+      toast.error("App is already installed!");
+      return;
+    }
 
-    const newItem = { ...app, installed: true };
-    const updatedList = [...installedList, newItem];
+    try {
+      const newItem = { ...app, installed: true };
+      const updatedList = [...installedList, newItem];
 
-    setInstalledList(updatedList);
-    localStorage.setItem("installed-items", JSON.stringify(updatedList));
+      setInstalledList(updatedList);
+      localStorage.setItem("installed-items", JSON.stringify(updatedList));
+
+      toast.success(`${app.title} installed successfully!`, {
+        style: {
+          border: "1px solid #00cba9",
+          padding: "16px",
+          color: "#001f3f",
+        },
+        iconTheme: {
+          primary: "#00cba9",
+          secondary: "#FFFAEE",
+        },
+      });
+    } catch (error) {
+      toast.error("Failed to install app. Please try again.");
+    }
   };
 
   return (
     <div className="max-w-5xl my-20 rounded-2xl mx-auto px-4">
-      {/* 1. Hero Section */}
+      {/* Hero Section */}
       <div className="flex flex-col md:flex-row gap-8 mb-12 items-start">
         <div className="w-48 h-48 rounded-3xl border border-slate-100 p-4 shadow-sm shrink-0 bg-white">
           <img
@@ -85,7 +105,7 @@ export default function AppDetails() {
 
       <hr className="border-slate-100 mb-10" />
 
-      {/* 2. Ratings Section */}
+      {/* Ratings Section */}
       <div className="mb-12">
         <h2 className="text-xl font-bold text-[#001f3f] mb-6">Ratings</h2>
         <div className="space-y-3 max-w-2xl">
@@ -108,7 +128,7 @@ export default function AppDetails() {
         </div>
       </div>
 
-      {/* 3. Description Section */}
+      {/* Description Section */}
       <div>
         <h2 className="text-xl font-bold text-[#001f3f] mb-4">Description</h2>
         <div className="text-slate-500 leading-relaxed space-y-4">
