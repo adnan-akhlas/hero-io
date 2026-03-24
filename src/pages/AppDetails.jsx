@@ -125,9 +125,8 @@ export default function AppDetails() {
       {/* 2. Ratings Section (Recharts Implementation) */}
       <div className="mb-12">
         <h2 className="text-xl font-bold text-[#001f3f] mb-6">Ratings</h2>
-        {/* Fixing the height and removing the container padding/border issues */}
         <div style={{ width: "100%", height: 280 }}>
-          <ResponsiveContainer width="100%" height="100%">
+          <ResponsiveContainer width="100%" height={280}>
             <BarChart
               layout="vertical"
               data={chartData}
